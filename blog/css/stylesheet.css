@@ -1,0 +1,179 @@
+@font-face {
+	font-family: 'Gibson';
+	src: url('../fonts/gibson-regular.otf')  format("opentype");
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: Gibson Semi-Bold;
+	src: url('../fonts/gibson-semibold.otf');
+}
+
+@font-face {
+	font-family: Gibson Italic;
+	src: url('../fonts/gibson-italic.otf');
+}
+
+* {
+	font-family: 'Gibson', Segoe UI, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #E7E7E7;
+}
+
+
+header {
+	background: url('../img/background.jpg');
+	width: 100%;
+	padding: 96px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+header #portada {
+	vertical-align: middle;
+	margin: 0px auto 0px auto;
+	width: 600px;
+}
+
+header #portada img {
+	border: solid white;
+	border-radius: 80px;
+}
+
+header #nombresitio {
+	color: white;
+	text-shadow: 1px 2px 2px grey;
+	display: inline-block;
+	padding: 0px 0px 35px 10px;
+	vertical-align: bottom;
+}
+
+header .titular {
+	font-family: Gibson Semi-Bold, Segoe UI, sans-serif;
+	font-size: 38px;
+
+}
+
+header .descripcion {
+	font-family: Gibson, Segoe UI, sans-serif;
+	font-size:20px;
+}
+
+#nav {
+	background-image: linear-gradient(to bottom, #BFBFBF 0%, #878787 70%);
+}
+
+#nav ul {
+	margin-left: 23px;
+}
+
+#nav li a {
+	font-family: Gibson, Segoe UI, sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+#nav li {
+	display: inline-block;
+	padding: 10px;
+	list-style: none;
+}
+
+li.selected a {
+	font-weight: bold;
+}
+
+
+.posts {
+	background-color: #EFEFEF;
+	padding: 10px;
+	border: #808080 1px solid;
+	border-radius: 5px;
+	margin: 20px 150px 20px;
+	text-align: left;	
+}
+
+.posts h3 {
+	color: #4E4D4D;
+	font-size: 25px;
+	font-family: Gibson Semi-Bold, Segoe UI, sans-serif;
+}
+
+.posts .link {
+	border: 1px solid;
+	background-color: #AEAEAE;
+	border-radius: 2px;
+	margin: 15px;
+	padding: 5px;
+	text-align: center;
+	font-style: italic;
+}
+
+.posts .link a {
+	font-family: Gibson Italic, Segoe UI, sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+.posts .cita {
+	border: 1px solid;
+	border-radius: 2px;
+	margin: 15px;
+	padding: 5px;
+	text-align: left;
+	background-color: #FFF;
+}
+
+.posts .cita p {
+	font-family: Cambria;
+	font-size: 28px;
+	color: #2A2A2A;
+	margin: 5px;
+}
+
+.posts .cita .autor {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.posts .imagen {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.posts .imagen img {
+	width: 50%;
+	border-radius: 5px;
+}
+
+footer {
+	font-family: Gibson;
+	font-size: 15px;
+	color: #4E4D4D;
+	text-align: center;
+	margin-block-end: 30px; 
+}
+
+
+/* Secciones fijas */
+
+#seccion {
+	font-family: Gibson Semi-Bold;
+	font-size: 28px;
+	margin: 15px 150px 10px;
+
+}
+
+#fijo {
+	background-color: #EFEFEF;
+	padding: 10px;
+	border: #808080 1px solid;
+	border-radius: 5px;
+	margin: 0px 150px 20px;
+	text-align: left;	
+}
